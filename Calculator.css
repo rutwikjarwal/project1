@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body{
+    width: 101%;
+    height: 100vh;
+    display:flex ;
+    justify-content:center;
+    align-items: center;
+ background-color:#3a4452; 
+    
+}
+.Calculator{
+    border: 1px solid  #717377;
+    padding: 20px;
+    border-radius: 16px;
+    background: transparent ;
+    box-shadow: 0px 3px 14px rgba(113, 113, 119, 0.5);
+    
+}
+input{
+    width: 320px;
+    border: none;
+    padding: 24px;
+    margin: 10px;
+    background: transparent;
+    box-shadow: 0px 3px 14px rgba(84, 84, 84, 0.1);
+    font-size: 40px;
+    text-align: right;
+    cursor: pointer
+    ;
+}
+input::placeholder{
+    color: #ffffff;
+
+}
+button{
+    border: none;
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    border-radius: 50%;
+    background-color: transparent;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 50%;
+    box-shadow: -5px -5px 15px #000 ;
+    outline: 1px solid #313131;
+    outline-offset: 5px;
+
+}
+.equalbtn{
+    /* background-color: #fbfd; */
+    background-color: #fb7c14;
+}
+.opretor{
+    background-color: #fb7c14;
+    color: rgb(12, 12, 12);
+}
+.opretorB{
+    /* background-color: #fb141c; */
+    color: rgb(95, 161, 81);
+}
